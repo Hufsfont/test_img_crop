@@ -91,7 +91,7 @@ int main() {
 
 	final_img = ~cut_img; // 글씨를 검은색으로, 배경을 흰색으로 변환
 
-    imshow("Crop", final_img);
+        imshow("Crop", final_img);
 
 	vector<int> params;
 	params.push_back(IMWRITE_JPEG_QUALITY);
